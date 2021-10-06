@@ -40,6 +40,10 @@ body {
 
 }
 
+.space {
+    border-left: 1px solid white;
+    height: 30px;
+}
 
 header h1 {
     display: inline-block;
