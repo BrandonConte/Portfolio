@@ -158,3 +158,32 @@ main {
 
 
 }
+
+.boxFlex h3 {
+    position: relative;
+    left: 85px;
+    top: 110%;
+    transition: top .20s;
+    transition-timing-function: ease-in-out;
+}
+
+.boxFlex:hover {
+    opacity: 1;
+    min-width: 25%;
+}
+
+.boxFlex:hover h3 {
+    top: 80%;
+}
+
+
+
+#portfolio {
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: white;
+    height: 750px;
+    padding: 50px;
+    display: flex;
+
+}
