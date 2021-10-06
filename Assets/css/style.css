@@ -70,16 +70,29 @@ body {
     height: 30px;
 }
 
-header h1 {
-    display: inline-block;
-    font-size: 48px;
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(/Assets/images/jumbotron.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
+    padding: 20px 35px;
 }
 
-header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #5148d8;
-    color: #ffffff;
+header h1 {
+    display: none;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+header nav img {
+    height: 50px;
+    width: 50px;
+    display: none;
+    
 }
 
 #PicProfile {
