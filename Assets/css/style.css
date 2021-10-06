@@ -187,3 +187,27 @@ main {
     display: flex;
 
 }
+
+#RunBuddy {
+    min-width: 50%;
+    min-height: 50%;
+    background-image: url(/Assets/images/runbuddy.png);
+    font-size: 40px;
+    margin: 0 50%;
+
+}
+
+#RunBuddy:hover {
+    min-width: 70%;
+}
+
+/* start of footer */
+
+footer {
+    display: flex;
+    background-color: lightslategray;
+    padding: 25px;
+    text-align: center;
+    color: black;
+    justify-content: space-between;
+}
