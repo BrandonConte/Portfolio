@@ -120,3 +120,8 @@ main article {
     float: right;
     margin-left: 25px;
 }
+
+.boxFlex {
+    background-image: url(/Assets/images/jumbotron.jpeg);
+    background-size: cover;
+}
