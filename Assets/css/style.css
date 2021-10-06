@@ -23,6 +23,17 @@ body {
     color: gray;
 }
 
+.hero div {
+    text-align: center;
+    margin: 20px;
+}
+
+.hero div h1 {
+    font-size: 26px;
+    margin-bottom: 10px;
+    color: white;
+}
+
 .TopNav {
     display: flex;
     justify-content: center;
@@ -31,6 +42,20 @@ body {
     background-position: 75%;
     background-attachment: fixed;
     background-position: center;
+}
+
+.TopNav nav {
+    width: 35%;
+}
+
+.TopNav nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.TopNav nav ul li {
+    padding: 25px;
 }
 
 .SectionTitle {
@@ -78,7 +103,7 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* commented out from old code dont need this.
 .articles {
     display: flex;
     flex-wrap: wrap;
@@ -98,16 +123,11 @@ a {
 
 .articles img {
         max-height: 200px;
-}
+} */
 
 
-main article {
-    padding: 20px;
-    width: 50%;
-    display: inline-block;
-    margin-left: 20px;
-    margin-top: 50px;
-    
+main {
+    background-color: white;
 }
 
 .float-left {
@@ -124,4 +144,17 @@ main article {
 .boxFlex {
     background-image: url(/Assets/images/jumbotron.jpeg);
     background-size: cover;
+    min-width: 20%;
+    min-height: 20%;
+    overflow:hidden;
+    opacity: 75%;
+    transition: .20s;
+    transition-timing-function: ease-in-out;
+    margin:7px;
+    font-size:24px;
+    text-decoration: none;
+    box-shadow: 0 0 15px lightslategray;
+    border: 7px solid white;
+
+
 }
