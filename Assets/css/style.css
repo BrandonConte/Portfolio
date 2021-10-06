@@ -23,13 +23,23 @@ body {
     color: gray;
 }
 
-header nav {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
-    font-size: 20px;
+.TopNav {
+    display: flex;
+    justify-content: center;
+    background-image: url(/Assets/images/jumbotron.jpeg);
+    background-size: cover;
+    background-position: 75%;
+    background-attachment: fixed;
+    background-position: center;
 }
+
+.SectionTitle {
+    text-align: center;
+    font-weight: lighter;
+    font-size: 24px;
+
+}
+
 
 header h1 {
     display: inline-block;
@@ -49,8 +59,7 @@ header {
     border: 10px solid white;
     /* Insert placeholder image here. Dont forget. */
     background-image:url(/Assets/images/linkedinlogo.png);
-    background-position: center;
-    
+    background-position: center;  
 }
 
 header nav ul {
