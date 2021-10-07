@@ -228,3 +228,40 @@ footer {
     color: black;
     justify-content: space-between;
 }
+/* End of footer */
+
+/* Contact me area */
+#ContactMe {
+    display: flex;
+    margin: 100px auto;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    max-width: 40%;
+    height: 500px;
+}
+
+#ContactMe div {
+    background-color: lightsteelblue;
+    width: 90%;
+    height: 22%;
+    justify-content: space-between;
+    border: 5px solid white;
+    box-shadow: 0 0 10px rgb(49, 36, 36);
+    display: flex;
+}
+
+.LOGO {
+    margin: 6px;
+    height: 85%;
+
+}
+
+.LINKS {
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    margin: 0 auto;
+
+}
