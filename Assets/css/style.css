@@ -145,13 +145,13 @@ main {
 }
 
 
-#portfolio {
+#Portfolio {
     flex: 4;
-  background-color: #fff;
-  padding: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .boxFlex {
@@ -284,6 +284,8 @@ footer {
     line-height: 35px;
     font-size: 25px;
     color: black;
+    cursor: default;
 }
 
 /* end of about me */
+
