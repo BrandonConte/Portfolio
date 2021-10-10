@@ -109,12 +109,11 @@ header nav img {
     
 }
 
-#PicProfile {
+.PicProfile {
     height: 250px;
     width: 250px;
     border: 10px solid white;
-    background-image:url("/Assets/images/placeholder.png");
-    background-position: center;  
+
 }
 
 header nav ul {
@@ -145,65 +144,39 @@ main {
     margin-left: 25px;
 }
 
-.boxFlex {
-    background-image: url("/Assets/images/jumbotron.jpeg");
-    background-size: cover;
-    min-width: 20%;
-    min-height: 20%;
-    overflow:hidden;
-    opacity: 75%;
-    transition: .20s;
-    transition-timing-function: ease-in-out;
-    margin:7px;
-    font-size:24px;
-    text-decoration: none;
-    box-shadow: 0 0 15px lightslategray;
-    border: 7px solid white;
-
-
-}
-
-.boxFlex h3 {
-    position: relative;
-    left: 85px;
-    top: 110%;
-    transition: top .20s;
-    transition-timing-function: ease-in-out;
-}
-
-.boxFlex:hover {
-    opacity: 1;
-    min-width: 25%;
-}
-
-.boxFlex:hover h3 {
-    top: 80%;
-}
-
-
 
 #portfolio {
-    justify-content: center;
-    flex-wrap: wrap;
-    background-color: white;
-    height: 750px;
-    padding: 50px;
-    display: flex;
-
+    flex: 4;
+  background-color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-#RunBuddy {
-    min-width: 50%;
-    min-height: 50%;
-    background-image: url("../images/runbuddy.png");
-    font-size: 40px;
-    margin: 0 50%;
+.boxFlex {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 10px;
+    flex: 0 0 400px;
+  }
 
+.boxFlex h3 {
+    padding: 20px;
+    color: black;
+    
 }
 
-#RunBuddy:hover {
-    min-width: 70%;
+.boxFlex img {
+    width: 100%;
+    padding-top: 20px;
 }
+
+.construction {
+    margin-top: 80px;
+}
+
 
 /* start of footer */
 
@@ -310,6 +283,7 @@ footer {
     padding: 50px;
     line-height: 35px;
     font-size: 25px;
+    color: black;
 }
 
 /* end of about me */
