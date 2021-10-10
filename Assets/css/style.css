@@ -289,3 +289,9 @@ footer {
 
 /* end of about me */
 
+@media screen and (max-width: 768px) {
+    main,
+    nav {
+      flex-direction: column;
+    }
+  }
