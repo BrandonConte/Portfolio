@@ -7,3 +7,7 @@ Challenges included using Flex to properly manage the website for any form of de
 I've tried to make this as clean as possible for future editions on building my portfolio further.
 
 ![alt text](https://github.com/BrandonConte/Unit2/blob/main/Assets/images/Screenshot_1.png?raw=true)
+
+https://github.com/BrandonConte/Portfolio - REPO
+
+https://brandonconte.github.io/Portfolio/ - Live link
